@@ -7,8 +7,6 @@ There are two version of the server:
 
 *   **server1** 
   The server can manage only one connection at a time.
-<br>
-
 *  **server2**
   The server must create processes on demand (a new process for each new TCP connection).
 
