@@ -8,7 +8,8 @@ There are two version of the server:
 *   **server1** 
   The server can manage only one connection at a time.
 <br>
-*   **server2**
+
+*  **server2**
   The server must create processes on demand (a new process for each new TCP connection).
 
 The protocol for file transfer works as follows: to request a file the client sends to the server the three ASCII characters “GET” followed by the ASCII space character and the ASCII characters of the file name, terminated by the ASCII carriage return (CR) and line feed (LF):
